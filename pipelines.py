@@ -2,7 +2,7 @@ import pymssql
 
 class DigPipeline(object):
 	def __init__(self):
-		self.db=pymssql.connect(host='localhost',user='sa',password='ywdxy123',database='Test',charset="utf8")
+		self.db=pymssql.connect(host='localhost',user='sa',password='XXXXXX',database='Test',charset="utf8")
 		self.cur=self.db.cursor()
 
 	def process_item(self, item, spider):
