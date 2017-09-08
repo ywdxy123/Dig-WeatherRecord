@@ -3,7 +3,7 @@ import pandas as pd
 import pymssql 
 import matplotlib.pyplot as plt
 select_sql='SELECT Date,TEMP_H,TEMP_L,Days,Month FROM WeatherRecord'
-db=pymssql.connect(host='localhost',user='sa',password='ywdxy123',database='Test',charset='utf8')
+db=pymssql.connect(host='localhost',user='sa',password='xxxxxxx',database='Test',charset='utf8')
 cur=db.cursor()
 
 cur.execute(select_sql)
